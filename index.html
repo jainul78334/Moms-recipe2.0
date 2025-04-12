@@ -1,0 +1,231 @@
+04.12 1:09 PM
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Delicious Recipes | स्वादिष्ट रेसिपी</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #fff4e6, #ffe0b2);
+      color: #333;
+    }
+    header {
+      background: #ff6f00;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      width: 300px;
+      margin: 15px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 15px;
+    }
+    .card h3 {
+      margin: 0 0 10px;
+      color: #ff6f00;
+    }
+    .section-title {
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .lang {
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    Delicious Recipes | स्वादिष्ट रेसिपी
+  </header>
+
+  <div class="container">
+
+    <!-- Recipe 1 -->
+    <div class="card">
+      <img src="https://source.unsplash.com/300x180/?pasta" alt="Masala Pasta" />
+      <div class="card-content">
+        <h3>Masala Pasta | मसाला पास्ता</h3>
+        <div class="section-title">Ingredients | सामग्री:</div>
+        <ul>
+          <li>1 cup pasta | 1 कप पास्ता</li>
+          <li>1 onion | 1 प्याज</li>
+          <li>2 tomatoes | 2 टमाटर</li>
+          <li>Spices | मसाले</li>
+        </ul>
+        <div class="section-title">Steps | विधि:</div>
+        <ul>
+          <li>Boil pasta | पास्ता उबालें</li>
+          <li>Saute onion, tomato | प्याज और टमाटर भूनें</li>
+          <li>Add spices & mix | मसाले डालें और मिलाएं</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Recipe 2 -->
+    <div class="card">
+      <img src="https://source.unsplash.com/300x180/?biriyani" alt="Veg Biryani" />
+      <div class="card-content">
+        <h3>Veg Biryani | वेज बिरयानी</h3>
+        <div class="section-title">Ingredients | सामग्री:</div>
+        <ul>
+          <li>1 cup rice | 1 कप चावल</li>
+          <li>Mixed vegetables | मिक्स सब्जियां</li>
+          <li>Spices & curd | मसाले और दही</li>
+        </ul>
+        <div class="section-title">Steps | विधि:</div>
+        <ul>
+          <li>Soak rice | चावल भिगोएं</li>
+          <li>Cook veggies | सब्जियां पकाएं</li>
+          <li>Layer and cook | लेयर करके पकाएं</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Recipe 3 -->
+    <div class="card">
+      <img src="https://source.unsplash.com/300x180/?dal" alt="Dal Tadka" />
+      <div class="card-content">
+        <h3>Dal Tadka | दाल तड़का</h3>
+        <div class="section-title">Ingredients | सामग्री:</div>
+        <ul>
+          <li>1 cup dal | 1 कप दाल</li>
+          <li>Garlic, tomato | लहसुन, टमाटर</li>
+          <li>Spices & ghee | मसाले और घी</li>
+        </ul>
+        <div class="section-title">Steps | विधि:</div>
+        <ul>
+          <li>Boil dal | दाल उबालें</li>
+          <li>Prepare tadka | तड़का बनाएं</li>
+          <li>Mix & serve | मिलाएं और परोसें</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Recipe 4 -->
+    <div class="card">
+      <img src="https://source.unsplash.com/300x180/?poha" alt="Poha" />
+      <div class="card-content">
+        <h3>Poha | पोहा</h3>
+        <div class="section-title">Ingredients | सामग्री:</div>
+        <ul>
+          <li>2 cups poha | 2 कप पोहा</li>
+          <li>Onion, mustard seeds | प्याज, राई</li>
+          <li>Curry leaves, lemon | करी पत्ता, नींबू</li>
+        </ul>
+        <div class="section-title">Steps | विधि:</div>
+        <ul>
+          <li>Wash poha | पोहा धो लें</li>
+          <li>Fry onion & spices | प्याज और मसाले भूनें</li>
+          <li>Mix and steam | मिलाकर पकाएं</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Recipe 5 -->
+    <div class="card">
+      <img src="https://source.unsplash.com/300x180/?pancake" alt="Banana Pancake" />
+      <div class="card-content">
+        <h3>Banana Pancake | केला पैनकेक</h3>
+        <div class="section-title">Ingredients | सामग्री:</div>
+        <ul>
+          <li>2 bananas | 2 केले</li>
+          <li>1 cup flour | 1 कप आटा</li>
+          <li>Milk & sugar | दूध और शक्कर</li>
+        </ul>
+        <div class="section-title">Steps | विधि:</div>
+        <ul>
+          <li>Mash bananas | केले मैश करें</li>
+          <li>Mix all ingredients | सारी सामग्री मिलाएं</li>
+          <li>Cook on pan | तवे पर सेंकें</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html><!-- HEADER AD SLOT -->
+<header>
+  Delicious Recipes | स्वादिष्ट रेसिपी
+  <div class="ad-slot">[Header Ad]</div>
+</header>
+
+<!-- FIRST AD AFTER FIRST RECIPE -->
+<div class="card">
+  <!-- ... Recipe 1 ... -->
+</div>
+
+<!-- Ad between recipe 1 and 2 -->
+<div class="ad-slot">[Ad Between Recipes]</div>
+
+<div class="card">
+  <!-- ... Recipe 2 ... -->
+</div>
+
+<!-- Ad after second recipe -->
+<div class="ad-slot">[Ad Block]</div>
+
+<!-- Footer Ad -->
+<footer style="text-align: center; margin: 30px;">
+  <div class="ad-slot">[Footer Ad Here]</div>
+</footer><script type="text/javascript">
+	atOptions = {
+		'key' : 'dab5a35e63168bc65228cb6e8ebbf826',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/dab5a35e63168bc65228cb6e8ebbf826/invoke.js"></script><script type="text/javascript">
+	atOptions = {
+		'key' : 'e06b79f555a77bb1ce3bf724e8a14b08',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/e06b79f555a77bb1ce3bf724e8a14b08/invoke.js"></script><script type="text/javascript">
+	atOptions = {
+		'key' : 'e45121a46769108bb51b4526376aa899',
+		'format' : 'iframe',
+		'height' : 300,
+		'width' : 160,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/e45121a46769108bb51b4526376aa899/invoke.js"></script>
